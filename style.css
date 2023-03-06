@@ -1,13 +1,13 @@
 DIV {
 	border: 1px solid #000000;
 }
+
 #header {
 	height: 100px;
 	width:800px;
 	margin-right: auto;
 	margin-left: auto;
 	background: url(images/banner.png) no-repeat;
-	color:red;
 }
 
 
@@ -16,7 +16,6 @@ DIV {
 	margin-right: auto;
 	margin-left: auto;
 } 
-
 
 #Footer {
 	width: 802px;
