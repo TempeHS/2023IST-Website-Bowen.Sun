@@ -10,7 +10,6 @@ DIV {
 	background: url(images/banner.png) no-repeat;
 }
 
-
 #MainContent {
 	width: 800px;
 	margin-right: auto;
@@ -24,7 +23,7 @@ DIV {
 	height:50px;
 }
 
-#FooterRight {
+#FooterLeft {
 	float:right;
 	width:399px;
 	height:50px;
