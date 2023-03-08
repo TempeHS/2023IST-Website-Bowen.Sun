@@ -25,15 +25,20 @@ DIV {
 
 #FooterLeft {
 	float:right;
-	width:399px;
+	width:49.5%;
 	height:50px;
 	border:1px solid green;
 }
 
 #FooterRight {
 	float:right;
-	width:399px;
+	width:49.5%;
 	height:50px;
 	border:1px solid red;
 }
 
+@media only screen and (max-width: 998px) {
+	#Footer, #MainContext, #Header {
+		width:100%;
+	}
+}
