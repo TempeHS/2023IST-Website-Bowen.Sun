@@ -42,3 +42,28 @@ DIV {
 		width:100%;
 	}
 }
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;\
+font-family: monsterrat, sans-serif;
+}
+
+.button-container {
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	justify-content: centre;
+	align-items: center;	
+}
+
+.button-container {
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
