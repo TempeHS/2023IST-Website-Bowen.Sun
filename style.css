@@ -41,13 +41,6 @@ DIV {
 	#Footer, #MainContext, #Header {
 		width:100%;
 	}
-}
-{
-margin: 0;
-padding: 0;
-box-sizing: border-box;\
-font-family: monsterrat, sans-serif;
-}
 
 .button-container {
 	display: flex;
@@ -80,6 +73,15 @@ font-family: monsterrat, sans-serif;
 	margin: 0 15px;
 	transition: 0.4s;
 }
+
+.button-1 {
+	color: #FFCE00;
+	border: 3px solid #FFCE00;
+}
+
+.button-1:hover {
+	color: #FFF;
+	background: #FFCE00;
 
 
 
