@@ -6,9 +6,101 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
+
   <body>
 <style>
-.container {border:1px solid red;}
-.border {border:1px solid blue;}
-.navbar-brand img {height:180px}
-</style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 40px;
+    }
+
+    p {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 30px;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Negative Effects of AI</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Effects on Students</h2>
+      <p>AI can have negative effects on students. It can lead to job displacement, as certain tasks that were previously performed by humans are automated by AI. This can create a challenging job market for students entering the workforce. Additionally, excessive reliance on AI for tasks such as problem-solving and decision-making can hinder the development of critical thinking and creativity in students.</p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/video1" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section>
+      <h2>Effects on Parents</h2>
+      <p>AI can also impact parents in various ways. It can contribute to job insecurity, as AI technologies automate tasks and potentially replace human workers. This can lead to financial instability and stress for parents. Additionally, concerns regarding privacy and data security arise with the increasing use of AI systems, which can affect parents' trust in these technologies.</p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/video2" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section>
+      <h2>Effects on Economy</h2>
+      <p>The adoption of AI technologies can have significant economic consequences. While AI can improve efficiency and productivity in certain industries, it can also result in job displacement and inequality. Moreover, the cost of implementing AI systems and training a workforce to effectively utilize them can be substantial, which may pose challenges for small businesses and developing economies.</p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/video3" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Your Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
